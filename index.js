@@ -62,7 +62,7 @@ const questions = [
   // Installation
   {
     type: 'input',
-    name: 'about',
+    name: 'installation',
     message: 'Please input information on how to install the application',
     when: ({ confirmAbout }) => {
       if (confirmAbout) {
@@ -81,7 +81,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'about',
+    name: 'information',
     message: 'Please input usage information',
     when: ({ confirmAbout }) => {
       if (confirmAbout) {
@@ -108,7 +108,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'about',
+    name: 'guidlines',
     message: 'Please input contribution information',
     when: ({ confirmAbout }) => {
       if (confirmAbout) {
@@ -127,7 +127,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'about',
+    name: 'instructions',
     message: 'Please add test instructions',
     when: ({ confirmAbout }) => {
       if (confirmAbout) {
